@@ -1,0 +1,36 @@
+//
+//  GiGWi-Prefix.pch
+//  GiGWi
+//
+//  Created by 小七 on 15-4-21.
+//  Copyright (c) 2015年 ___清一丽___. All rights reserved.
+//
+
+#ifndef GiGWi_GiGWi_Prefix_pch
+#define GiGWi_GiGWi_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import"JTDefine.h"
+#import "JTUser.h"
+#import "JSON.h"
+#import"JTAlertViewAnimation.h"
+#import"JTAppDelegate.h"
+#import"JTTabBarViewController.h"
+#import "SOAPRequest.h"
+#import "NSData+Base64.h"
+#import "MyMD5.h"
+#import"JTSortModel.h"
+#import "MJRefresh.h"
+#import "UIImageView+WebCache.h"
+#import"JTLoginViewController.h"
+#import"NSString+Html.h"
+
+#endif
