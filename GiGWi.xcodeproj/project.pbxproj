@@ -43,10 +43,10 @@
 		004F945E1B0ACC550023DDD7 /* RSADataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 004F94561B0ACC550023DDD7 /* RSADataVerifier.m */; };
 		004F94631B0ACC720023DDD7 /* APAuthV2Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 004F94601B0ACC720023DDD7 /* APAuthV2Info.m */; };
 		004F94641B0ACC720023DDD7 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 004F94621B0ACC720023DDD7 /* Order.m */; };
-		004F94661B0ADDEA0023DDD7 /* AlipaySDK.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 004F94651B0ADDEA0023DDD7 /* AlipaySDK.bundle */; };
-		004F94681B0ADDEF0023DDD7 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004F94671B0ADDEF0023DDD7 /* AlipaySDK.framework */; };
-		004F946A1B0ADDF40023DDD7 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 004F94691B0ADDF40023DDD7 /* libcrypto.a */; };
-		004F946C1B0ADDF60023DDD7 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 004F946B1B0ADDF60023DDD7 /* libssl.a */; };
+		007E26EF1B0B177600183138 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 007E26ED1B0B177600183138 /* AlipaySDK.bundle */; };
+		007E26F01B0B177600183138 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007E26EE1B0B177600183138 /* AlipaySDK.framework */; };
+		007E26F31B0B177E00183138 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 007E26F11B0B177E00183138 /* libcrypto.a */; };
+		007E26F41B0B177E00183138 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 007E26F21B0B177E00183138 /* libssl.a */; };
 		00E86D941AE620B100BE5CB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E86D931AE620B100BE5CB4 /* main.m */; };
 		00E86D971AE620B100BE5CB4 /* JTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E86D961AE620B100BE5CB4 /* JTAppDelegate.m */; };
 		00E86D9D1AE620B100BE5CB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E86D9B1AE620B100BE5CB4 /* Main.storyboard */; };
@@ -341,10 +341,10 @@
 		004F94601B0ACC720023DDD7 /* APAuthV2Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APAuthV2Info.m; sourceTree = "<group>"; };
 		004F94611B0ACC720023DDD7 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
 		004F94621B0ACC720023DDD7 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
-		004F94651B0ADDEA0023DDD7 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = "../../../../Downloads/下载小文件夹/支付宝WS_MOBILE_PAY_SDK_BASE/支付宝钱包支付接口开发包2.0标准版(20150331)/DEMO/客户端demo/支付宝钱包支付接口开发包2.0标准版(iOS 2.2.1)/AlipaySDK.bundle"; sourceTree = "<group>"; };
-		004F94671B0ADDEF0023DDD7 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = "../../../../Downloads/下载小文件夹/支付宝WS_MOBILE_PAY_SDK_BASE/支付宝钱包支付接口开发包2.0标准版(20150331)/DEMO/客户端demo/支付宝钱包支付接口开发包2.0标准版(iOS 2.2.1)/AlipaySDK.framework"; sourceTree = "<group>"; };
-		004F94691B0ADDF40023DDD7 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "../../../../Downloads/下载小文件夹/支付宝WS_MOBILE_PAY_SDK_BASE/支付宝钱包支付接口开发包2.0标准版(20150331)/DEMO/客户端demo/支付宝钱包支付接口开发包2.0标准版(iOS 2.2.1)/AliSDKDemo/libcrypto.a"; sourceTree = "<group>"; };
-		004F946B1B0ADDF60023DDD7 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "../../../../Downloads/下载小文件夹/支付宝WS_MOBILE_PAY_SDK_BASE/支付宝钱包支付接口开发包2.0标准版(20150331)/DEMO/客户端demo/支付宝钱包支付接口开发包2.0标准版(iOS 2.2.1)/AliSDKDemo/libssl.a"; sourceTree = "<group>"; };
+		007E26ED1B0B177600183138 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		007E26EE1B0B177600183138 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		007E26F11B0B177E00183138 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		007E26F21B0B177E00183138 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
 		00E86D8E1AE620B100BE5CB4 /* GiGWi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiGWi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E86D921AE620B100BE5CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E86D931AE620B100BE5CB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -581,18 +581,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				004F946C1B0ADDF60023DDD7 /* libssl.a in Frameworks */,
-				004F94681B0ADDEF0023DDD7 /* AlipaySDK.framework in Frameworks */,
 				00E86E681AE6262500BE5CB4 /* SystemConfiguration.framework in Frameworks */,
 				00E86E721AE630A900BE5CB4 /* libxml2.2.dylib in Frameworks */,
 				00E86E701AE62E7500BE5CB4 /* CoreGraphics.framework in Frameworks */,
+				007E26F41B0B177E00183138 /* libssl.a in Frameworks */,
 				00E86E6E1AE6265800BE5CB4 /* Foundation.framework in Frameworks */,
+				007E26F31B0B177E00183138 /* libcrypto.a in Frameworks */,
 				00E86E6C1AE6264200BE5CB4 /* CFNetwork.framework in Frameworks */,
 				00E86E6A1AE6263100BE5CB4 /* libz.1.2.5.dylib in Frameworks */,
 				00E86E661AE6261C00BE5CB4 /* MobileCoreServices.framework in Frameworks */,
 				00E86E631AE625E200BE5CB4 /* UIKit.framework in Frameworks */,
-				004F94661B0ADDEA0023DDD7 /* AlipaySDK.bundle in Frameworks */,
-				004F946A1B0ADDF40023DDD7 /* libcrypto.a in Frameworks */,
+				007E26F01B0B177600183138 /* AlipaySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1049,10 +1048,10 @@
 		00E86E641AE625EC00BE5CB4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				004F946B1B0ADDF60023DDD7 /* libssl.a */,
-				004F94691B0ADDF40023DDD7 /* libcrypto.a */,
-				004F94671B0ADDEF0023DDD7 /* AlipaySDK.framework */,
-				004F94651B0ADDEA0023DDD7 /* AlipaySDK.bundle */,
+				007E26F11B0B177E00183138 /* libcrypto.a */,
+				007E26F21B0B177E00183138 /* libssl.a */,
+				007E26ED1B0B177600183138 /* AlipaySDK.bundle */,
+				007E26EE1B0B177600183138 /* AlipaySDK.framework */,
 				00E86E711AE630A900BE5CB4 /* libxml2.2.dylib */,
 				00E86E6F1AE62E7500BE5CB4 /* CoreGraphics.framework */,
 				00E86E6D1AE6265800BE5CB4 /* Foundation.framework */,
@@ -1386,6 +1385,7 @@
 				00E86EB61AE63F1700BE5CB4 /* 常用地址.png in Resources */,
 				00E86F371AE88AA600BE5CB4 /* 设置.png in Resources */,
 				00E86EA41AE63C8300BE5CB4 /* 选择框.png in Resources */,
+				007E26EF1B0B177600183138 /* AlipaySDK.bundle in Resources */,
 				00E86F391AE88AA600BE5CB4 /* 我的购物车.png in Resources */,
 				001BF2321AF8514C004E877B /* adapter_default_icon.png in Resources */,
 				00E86F321AE8898400BE5CB4 /* 选中背景框.png in Resources */,
@@ -1667,8 +1667,10 @@
 					"$(PROJECT_DIR)/GiGWi",
 					"/Users/xiaoqi/Downloads/下载小文件夹/支付宝WS_MOBILE_PAY_SDK_BASE/支付宝钱包支付接口开发包2.0标准版(20150331)/DEMO/客户端demo/支付宝钱包支付接口开发包2.0标准版(iOS",
 					"2.2.1)",
+					"$(PROJECT_DIR)/GiGWiTests",
 				);
-				GCC_PREFIX_HEADER = "/Users/xiaoqi/Documents/GiGwi备份/5.5调试无bug/GiGWi/GiGWi-Prefix.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GiGWi/GiGWi-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -1683,6 +1685,7 @@
 					"$(PROJECT_DIR)/GiGWi",
 					"/Users/xiaoqi/Downloads/下载小文件夹/支付宝WS_MOBILE_PAY_SDK_BASE/支付宝钱包支付接口开发包2.0标准版(20150331)/DEMO/客户端demo/支付宝钱包支付接口开发包2.0标准版(iOS",
 					"2.2.1)/AliSDKDemo",
+					"$(PROJECT_DIR)/GiGWiTests",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1700,8 +1703,10 @@
 					"$(PROJECT_DIR)/GiGWi",
 					"/Users/xiaoqi/Downloads/下载小文件夹/支付宝WS_MOBILE_PAY_SDK_BASE/支付宝钱包支付接口开发包2.0标准版(20150331)/DEMO/客户端demo/支付宝钱包支付接口开发包2.0标准版(iOS",
 					"2.2.1)",
+					"$(PROJECT_DIR)/GiGWiTests",
 				);
-				GCC_PREFIX_HEADER = "/Users/xiaoqi/Documents/GiGwi备份/5.5调试无bug/GiGWi/GiGWi-Prefix.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GiGWi/GiGWi-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -1716,6 +1721,7 @@
 					"$(PROJECT_DIR)/GiGWi",
 					"/Users/xiaoqi/Downloads/下载小文件夹/支付宝WS_MOBILE_PAY_SDK_BASE/支付宝钱包支付接口开发包2.0标准版(20150331)/DEMO/客户端demo/支付宝钱包支付接口开发包2.0标准版(iOS",
 					"2.2.1)/AliSDKDemo",
+					"$(PROJECT_DIR)/GiGWiTests",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";

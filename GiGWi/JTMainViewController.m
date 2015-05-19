@@ -55,19 +55,26 @@
     UIImageView * logoImgView=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"iTunesArtwork@2x.png"]];
     logoImgView.frame=CGRectMake(25, 7, 30, 30);
     [navBarView addSubview:logoImgView];
+    
+    UILabel * navTitailLab=[[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 44)];
+    navTitailLab.text=@"GiGwi";
+    navTitailLab.textAlignment=NSTextAlignmentCenter;
+    navTitailLab.textColor=[UIColor whiteColor];
+    navTitailLab.font=[UIFont systemFontOfSize:18];
+    [navBarView addSubview:navTitailLab];
 
-    UIButton * rightBtn=[UIButton  buttonWithType:UIButtonTypeCustom];
-    rightBtn.frame=CGRectMake(80,12,self.view.frame.size.width-10-80, 20);
-    [rightBtn setBackgroundImage:[UIImage imageNamed:@"首页-搜索框.png"] forState:UIControlStateNormal];
-    
-    UILabel * searchLab=[[UILabel alloc] initWithFrame:CGRectMake(30, 0, self.view.frame.size.width-10-80-30-10, 20)];
-    searchLab.text=@"请输入类别或关键字";
-    searchLab.textColor=[UIColor whiteColor];
-    searchLab.font=[UIFont systemFontOfSize:14];
-    [rightBtn addSubview:searchLab];
-    
-    [rightBtn addTarget:self action:@selector(searchBtn:) forControlEvents:UIControlEventTouchUpInside];
-    [navBarView addSubview:rightBtn];
+//    UIButton * rightBtn=[UIButton  buttonWithType:UIButtonTypeCustom];
+//    rightBtn.frame=CGRectMake(80,12,self.view.frame.size.width-10-80, 20);
+//    [rightBtn setBackgroundImage:[UIImage imageNamed:@"首页-搜索框.png"] forState:UIControlStateNormal];
+//    
+//    UILabel * searchLab=[[UILabel alloc] initWithFrame:CGRectMake(30, 0, self.view.frame.size.width-10-80-30-10, 20)];
+//    searchLab.text=@"请输入类别或关键字";
+//    searchLab.textColor=[UIColor whiteColor];
+//    searchLab.font=[UIFont systemFontOfSize:14];
+//    [rightBtn addSubview:searchLab];
+//    
+//    [rightBtn addTarget:self action:@selector(searchBtn:) forControlEvents:UIControlEventTouchUpInside];
+//    [navBarView addSubview:rightBtn];
     
     _tableView=[[UITableView alloc] initWithFrame:CGRectMake(0,20+NAV_HEIGHT, self.view.frame.size.width, self.view.frame.size.height-20-NAV_HEIGHT-TAB_HEIGHT) style:UITableViewStylePlain];
     _tableView.dataSource=self;
@@ -81,11 +88,11 @@
     _tableView.separatorStyle=UITableViewCellSeparatorStyleNone;
     
 }
--(void)searchBtn:(UIButton *)sender
-{
-    JTSearchViewController * sVC=[[JTSearchViewController alloc]init];
-    [self.navigationController pushViewController:sVC animated:YES];
-}
+//-(void)searchBtn:(UIButton *)sender
+//{
+//    JTSearchViewController * sVC=[[JTSearchViewController alloc]init];
+//    [self.navigationController pushViewController:sVC animated:YES];
+//}
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return 10+(SCREEN_WIDTH-30)/2.0;
