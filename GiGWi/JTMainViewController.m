@@ -60,7 +60,7 @@
     navTitailLab.text=@"GiGwi";
     navTitailLab.textAlignment=NSTextAlignmentCenter;
     navTitailLab.textColor=[UIColor whiteColor];
-    navTitailLab.font=[UIFont systemFontOfSize:18];
+    navTitailLab.font=[UIFont systemFontOfSize:24];
     [navBarView addSubview:navTitailLab];
 
 //    UIButton * rightBtn=[UIButton  buttonWithType:UIButtonTypeCustom];
